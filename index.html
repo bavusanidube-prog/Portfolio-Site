@@ -3,13 +3,27 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>Bavusani Otis Dube | Portfolio</title>
   <meta name="description" content="Portfolio website of Bavusani Otis Dube, Frontend Developer building premium web applications." />
+  <meta name="author" content="Bavusani Otis Dube" />
+
+  <meta property="og:title" content="Bavusani Otis Dube | Portfolio" />
+  <meta property="og:description" content="Frontend Developer building premium web applications with JavaScript, Firebase, dashboards, and business-focused UI." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://bavusanidube-prog.github.io/Portfolio-Site/" />
+  <meta property="og:image" content="https://bavusanidube-prog.github.io/Portfolio-Site/project-preview.png" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Bavusani Otis Dube | Portfolio" />
+  <meta name="twitter:description" content="Frontend Developer building premium web applications with JavaScript, Firebase, dashboards, and business-focused UI." />
+  <meta name="twitter:image" content="https://bavusanidube-prog.github.io/Portfolio-Site/project-preview.png" />
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
   <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
@@ -17,7 +31,7 @@
   <div class="bg-orb orb-2"></div>
   <div class="bg-grid"></div>
 
-  <header class="site-header">
+  <header class="site-header reveal">
     <div class="logo">BOD</div>
 
     <nav class="nav">
@@ -32,7 +46,7 @@
 
   <main class="page-shell">
 
-    <section class="hero">
+    <section class="hero reveal">
       <div class="hero-copy">
         <span class="eyebrow">Frontend Developer</span>
         <h1>Bavusani Otis Dube</h1>
@@ -68,7 +82,6 @@
 
       <div class="hero-panel">
         <div class="profile-card">
-
           <div class="profile-top">
             <div class="profile-badge">Open to Opportunities</div>
             <h2>Product Builder</h2>
@@ -95,12 +108,11 @@
               <strong>Available</strong>
             </div>
           </div>
-
         </div>
       </div>
     </section>
 
-    <section class="panel stats-strip">
+    <section class="panel stats-strip reveal">
       <div class="stat-pill">
         <span>Live Projects</span>
         <strong>2+</strong>
@@ -122,7 +134,7 @@
       </div>
     </section>
 
-    <section id="about" class="section panel">
+    <section id="about" class="section panel reveal">
       <div class="section-head">
         <span class="section-kicker">About</span>
         <h2>Developer With A Product Mindset</h2>
@@ -135,7 +147,7 @@
       </p>
     </section>
 
-    <section id="projects" class="section panel">
+    <section id="projects" class="section panel reveal">
       <div class="section-head">
         <span class="section-kicker">Projects</span>
         <h2>Featured Work</h2>
@@ -203,17 +215,21 @@
             </div>
           </article>
 
-          <article class="project-card">
-            <h3>Currently Building</h3>
+          <article class="project-card project-card-visual">
+            <div class="project-card-image">
+              <img src="project-preview-2.png" alt="Second portfolio project preview" />
+            </div>
+
+            <h3>UI / Product Showcase</h3>
             <p>
-              More real-world web apps focused on dashboards,
-              workflow systems, business software, and polished UI.
+              A visual showcase of my design direction and premium dashboard styling,
+              focused on modern product presentation and interface polish.
             </p>
 
             <div class="project-tags">
-              <span>In Progress</span>
-              <span>Web Apps</span>
-              <span>Product Design</span>
+              <span>UI Design</span>
+              <span>Product Thinking</span>
+              <span>Frontend</span>
             </div>
           </article>
         </div>
@@ -221,7 +237,7 @@
       </div>
     </section>
 
-    <section id="skills" class="section panel">
+    <section id="skills" class="section panel reveal">
       <div class="section-head">
         <span class="section-kicker">Skills</span>
         <h2>Core Strengths</h2>
@@ -250,7 +266,7 @@
       </div>
     </section>
 
-    <section class="section panel cta-panel">
+    <section class="section panel cta-panel reveal">
       <div class="section-head">
         <span class="section-kicker">Hiring</span>
         <h2>Need a developer who can build real products?</h2>
@@ -267,7 +283,7 @@
       </div>
     </section>
 
-    <section id="contact" class="section panel contact-panel">
+    <section id="contact" class="section panel contact-panel reveal">
       <div class="section-head">
         <span class="section-kicker">Contact</span>
         <h2>Let's Connect</h2>
@@ -295,6 +311,10 @@
         </a>
       </div>
     </section>
+
+    <footer class="site-footer reveal">
+      <p>© 2026 Bavusani Otis Dube • Portfolio Website</p>
+    </footer>
 
   </main>
 
